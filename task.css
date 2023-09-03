@@ -1,0 +1,93 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-image: url('image.jpg');
+    background-size: cover;
+}
+.done {
+    text-decoration: line-through;
+    color:rgb(148, 106, 190) !important;
+    background-color:rgb(222, 202, 242) !important ;
+}
+#heading{
+    text-align: center;
+    padding: 5vh 0vh 7vh 0vh;
+    font-size: 30px;
+}
+main{
+    width: 45%;
+    height: 100vh;
+    position: absolute;
+    right: 20px;
+    top: 70px;
+    display: flex;  
+    justify-content: center;
+    align-items: center; 
+}
+#main_div{
+    width: 700px;
+    min-height: 500px;
+    background-color: rgb(243, 235, 246);
+    border-radius: 5px;
+    padding: 15px;
+}
+.input_div{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    font-size: 14px;
+    box-shadow: 0px 0px 2px grey;
+    border-radius: 2px;
+}
+#input_text{
+    width: 90%;
+    height:7vh;
+    background-color: rgb(244, 240, 245);
+    font-size: 14.5px;
+    padding-left: 10px;
+    border: 1px solid;
+}
+#add_button{
+    width: 12vh;
+    font-size: 14.5px;
+    background-color: rgb(239, 226, 247);
+    color: rgb(67, 40, 78);
+    border: 1px solid;
+}
+.task_div
+{
+    display: flex;
+    justify-content: center;
+}
+#task_list{
+    width:90% ;
+    font-size: 18px;
+    margin-top:0px;
+    list-style: none;
+}
+#task_list li{
+    height: 25px;
+    position: relative;
+    background-color: rgb(205, 168, 243);
+    /* background-color: rgb(215, 184, 239); */
+    color: rgb(67, 40, 78);
+    border-radius: 2.5px;
+    text-align: justify;
+    margin-top: 15px;
+    user-select: none;
+    padding-left: 5px;
+}
+#task_list li i {
+    position: absolute;
+    right: 10px;
+    top: 2px;
+}
+#task_list li div {
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    right: 50px;
+    top: 3px;
+}
